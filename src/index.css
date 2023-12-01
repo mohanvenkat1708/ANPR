@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-container{
+  background-color:rgb(133, 223, 140);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: .75rem;
+}
+
+.add-remove-grid{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  
+}
+
+.add-vehicle-form form{
+  background-color:cornsilk;
+  max-width: 300px;
+  max-height: 29vh;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .75rem;
+}
+
+.add-vehicle-form h3{
+  background-color:khaki;
+  padding: 15px;
+  border-radius: .75rem;
+  width:220px
+}
+
+.add-vehicle-form input{
+  display: block;
+  margin: .75rem;
+  padding: .45rem;
+  border: none;
+  border-radius: .75rem;
+  padding:0.6rem;
+  
+}
+
+.add-vehicle-form input:focus{
+  outline: none;
+}
+
+
+.add-vehicle-form .submit{
+ background-color:chartreuse;
+ 
+}
+
+.add-vehicle-form .submit:hover{
+  cursor: pointer;
+  background-color:lightgreen;
+}
+
+.remove-vehicle-form form{
+  background-color:coral;
+  max-width: 300px;
+  max-height: 29vh;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .75rem;
+}
+
+.remove-vehicle-form h3{
+  background-color: aqua;
+  padding: 15px;
+  border-radius: .75rem;
+
+  width:220px
+}
+
+
+ 
+.submit-remove:hover{
+   cursor: pointer;
+   background-color:cornsilk;
+ }
+
+ .remove-vehicle-form input{
+  display: block;
+  margin: .75rem;
+  padding: .45rem;
+  border: none;
+  border-radius: .75rem;
+  padding:0.6rem;
+  
+}
+
+.remove-vehicle-form input:focus{
+  outline: none;
+}
+
+
+.content{
+  display: flex;
+  width: 70vw;
+}
+
+.list-grid{
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 30px;
+  margin: 17px;
+}
+
+.list table{
+  background-color:rgb(233, 233, 249);
+  border: solid lightpink;
+  border-radius: 15px;
+  min-width: 11rem;
+  min-height: 12.5rem;
+  padding: 5px;
+}
+
+.list table th{
+  background-color:rgb(245, 255, 240);
+  padding: 15px;
+  border-radius: .75rem;
+
+  width:220px
+}
+
+.video-player video{
+  
+  margin-left: 20px;
+  border: 3px solid goldenrod;
+  border-radius: 15px;
+}
